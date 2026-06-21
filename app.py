@@ -3,7 +3,7 @@ from google import genai
 
 API_KEY = "AQ.Ab8RN6LVKt_2odP9cNmMwq3D7deEX-GjJcAD4h8lzNwKGSuX1A"
 
-client = genai.Client(api_key=API_KEY)
+client = genai.Client(api_key=st.secrets["API_KEY"])
 
 st.title("🧠 AI Research Assistant")
 
